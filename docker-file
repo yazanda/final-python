@@ -4,7 +4,7 @@ FROM python:3.9
 WORKDIR /app
 
 # Copy the project files into the container
-COPY . .
+COPY . /app
 
 # Virtual env
 RUN pip install --no-cache-dir -r requirements.txt
