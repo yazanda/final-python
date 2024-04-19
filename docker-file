@@ -1,0 +1,17 @@
+# python img
+FROM python: 3.9
+
+WORKDIR /app
+
+# Copy the project files into the container
+COPY . /app
+
+# Virtual env
+RUN pip install pipenv
+RUN pipenv install --system --deploy
+
+# port expose
+EXPOSE 5000
+
+# Run the application
+CMD ["python", "app-py"]
