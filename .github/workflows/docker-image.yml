@@ -1,4 +1,4 @@
-name: Docker Image CI (New Workflow)
+name: Docker Image CI (Our Workflow)
 
 on:
   push:
