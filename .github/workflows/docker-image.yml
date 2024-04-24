@@ -9,7 +9,7 @@ on:
 
 jobs:
 
-  build:
+  worckflow:
 
     runs-on: ubuntu-latest
 
