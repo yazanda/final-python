@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Docker Image CI (New Workflow)
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 
 jobs:
 
-  worckflow:
+  workflow:
 
     runs-on: ubuntu-latest
 
